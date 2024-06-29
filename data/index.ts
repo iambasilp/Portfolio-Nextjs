@@ -90,25 +90,25 @@ export const testimonials = [
   {
     quote:
       "Collaborating with Basil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Basil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Basil is the ideal partner.",
-    name: "Ajith Menon",
+    name: "Sahad P",
     title: "Director of WebInt Technologies",
   },
   {
     quote:
       "Collaborating with Basil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Basil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Basil is the ideal partner.",
-    name: "Ajith Menon",
+    name: "Sahad P",
     title: "Director of WebInt Technologies",
   },
   {
     quote:
       "Collaborating with Basil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Basil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Basil is the ideal partner.",
-    name: "Ajith Menon",
+    name: "Sahad P",
     title: "Director of WebInt Technologies",
   },
   {
     quote:
       "Collaborating with Basil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Basil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Basil is the ideal partner.",
-    name: "Ajith Menon",
+    name: "Sahad P",
     title: "Director of WebInt Technologies",
   },
 ];
@@ -150,13 +150,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/iambasilp",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/iambasilp/",
   },
 ];
