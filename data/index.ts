@@ -83,33 +83,24 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Basil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Basil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Basil is the ideal partner.",
+      "Working with Basil was fantastic. He is professional, quick, and dedicated. His passion for development shines through. If you want to improve your website and brand, Basil is the perfect choice.",
     name: "Sahad P",
-    title: "Director of WebInt Technologies",
+    img: "/Profile.jpg",
+    title: "Director, WebInt Technologies",
   },
   {
     quote:
-      "Collaborating with Basil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Basil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Basil is the ideal partner.",
-    name: "Sahad P",
-    title: "Director of WebInt Technologies",
+      "Basil made the entire process smooth and enjoyable. His attention to detail and creativity made our collaboration very productive. He turned our vision into a beautiful website. I highly recommend him for top-notch development.",
+    name: "Abhijith V",
+    img: "/Profile-abhijith.jpeg",
+    title: "Director, CreativeArch Technologies",
   },
   {
     quote:
-      "Collaborating with Basil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Basil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Basil is the ideal partner.",
-    name: "Sahad P",
-    title: "Director of WebInt Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Basil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Basil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Basil is the ideal partner.",
-    name: "Sahad P",
-    title: "Director of WebInt Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Basil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Basil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Basil is the ideal partner.",
-    name: "Sahad P",
-    title: "Director of WebInt Technologies",
+      "Basil was a joy to work with. He is professional, prompt, and dedicated to excellent results. His enthusiasm for development stands out. If you want to elevate your website and brand, Basil is the best partner.",
+    name: "Anas M",
+    img: "/Profile-anas.jpeg",
+    title: "Director, Genshify Technologies",
   },
 ];
 
