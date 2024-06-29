@@ -117,7 +117,7 @@ export const InfiniteMovingCards = ({
                 {/* add this div for the profile img */}
                 <div className="me-3 w-10 h-10 rounded-full overflow-hidden">
                   <img
-                    src={item.img}
+                    src="/Profile.jpg"
                     alt="profile"
                     className="w-full h-full object-cover rounded-full"
                   />
