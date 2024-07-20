@@ -1,10 +1,9 @@
 "use client";
-
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
-
+import Image from "next/image";
+import Link from "next/link";
 const RecentProjects = () => {
   return (
     <div className="py-20">
@@ -19,19 +18,28 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="github.iambasilp"
-              href="https://twitter.com/iambasilp"
+              title="iambasilp"
+              href="https://www.linkedin.com/in/iambasilp/"
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <Image
+                    src="/bg.png"
+                    alt="Background image"
+                    layout="fill"
+                    objectFit="cover"
+                    priority
+                  />
                 </div>
-                <img
+
+                <Image
                   src={item.img}
-                  alt="cover"
+                  alt={`Cover for ${item.title}`}
+                  layout="fill"
+                  objectFit="contain"
                   className="z-10 absolute bottom-0"
                 />
               </div>
@@ -60,7 +68,13 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <Image
+                        src={icon}
+                        alt={`Icon ${index}`}
+                        width={32}
+                        height={32}
+                        className="p-2"
+                      />
                     </div>
                   ))}
                 </div>
@@ -70,9 +84,9 @@ const RecentProjects = () => {
                     href={item.link}
                     className="flex lg:text-xl md:text-xs text-sm text-purple"
                   >
-                    Check Live Site
+                    Check Github
                   </a>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ml-3" color="#CBACF9" />
                 </div>
               </div>
             </PinContainer>

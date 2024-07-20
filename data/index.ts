@@ -72,11 +72,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Finix Furniture Ecommerce Shop",
+    des: "Discover the finest selection of furniture at Finix Furniture Ecommerce Shop. Our platform offers an extensive range of stylish and functional pieces to enhance every room in your home. Shop with ease and enjoy a seamless experience with our user-friendly design and advanced features.",
+    img: "/p2.png",
+    iconLists: ["/re.svg"],
+    link: "https://github.com/iambasilp/Fullstack-Furniture-Webapp",
+  },
+  {
+    id: 2,
     title: "Modern Youtube 5.O App",
     des: "Experience the latest in video streaming technology with Modern Youtube 5.0, offering advanced features and a sleek design.",
     img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://quiet-alpaca-cd8a0a.netlify.app/",
+    link: "https://github.com/iambasilp/Youtube-Clone-react",
   },
 ];
 
